@@ -25,9 +25,9 @@ package I.Variables;
 public class NewClass {
     public static void main (String[] args){
         
-        String Name = "champ";
+        String Name = "Hello word";
         
-        System.out.println("Hello I'm" + Name);
+        System.out.println("" + Name);
     }
     
 }
