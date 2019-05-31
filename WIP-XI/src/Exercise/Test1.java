@@ -16,18 +16,35 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package I.Variables;
+package Exercise;
+
+import java.util.Scanner;
 
 /**
  *
  * @author WipCamp11
  */
-public class NewClass {
-    public static void main (String[] args){
+public class Test1 {
+    public static void main(String[] args) {
+        String name = ("Champ");
+        int X=10;
+        int Z;
         
-        String Name = "Hello word \nChamp \nผมหล่อมากๆ";
+        Scanner sc = new Scanner(System.in);
         
-        System.out.println("" + Name);
+        System.out.print("Enter Y : ");
+
+        int Y = sc.nextInt();
+        
+        if (X>=Y){
+            Z=X-Y;
+            System.out.println("X-Y="+Z);
+            System.out.println("Name =" +name);
+        } else {
+            Z=X+Y;
+            System.out.printf(" X+Y = %d \nName = %s ",Z,name );
+       
+        }
+        
     }
-    
 }
